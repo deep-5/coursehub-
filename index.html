@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Real AI Influencer — Go Viral &amp; Earn Lakhs</title>
+  <meta name="description" content="Master the AI Influencer workflow on your Android phone. No PC, no paid software. Create viral reels and earn lakhs every month." />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Create Real AI Influencer — Go Viral &amp; Earn Lakhs" />
+  <meta property="og:description" content="Master the AI Influencer workflow on your Android phone. No PC, no paid software. Create viral reels and earn lakhs every month." />
+  <meta property="og:image" content="assets/ai-creator-logo.png" />
+  <link rel="icon" type="image/png" href="assets/ai-creator-logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind / Base CSS (downloaded from target site) -->
+  <link rel="stylesheet" href="assets/index-BeKMZ3Jt.css" />
+
+  <!-- Custom Electric Blue Cyber Theme matching User's Logo -->
+  <style>
+    :root {
+      --background: 224 71% 4%;
+      --foreground: 0 0% 98%;
+      --card: 224 55% 8%;
+      --card-foreground: 0 0% 98%;
+      --popover: 224 55% 8%;
+      --popover-foreground: 0 0% 98%;
+      --primary: 223 84% 53%;
+      --primary-foreground: 0 0% 100%;
+      --secondary: 224 40% 14%;
+      --secondary-foreground: 0 0% 95%;
+      --muted: 224 35% 15%;
+      --muted-foreground: 220 20% 70%;
+      --accent: 223 84% 53%;
+      --accent-foreground: 0 0% 100%;
+      --destructive: 0 84% 60%;
+      --destructive-foreground: 0 0% 98%;
+      --border: 224 40% 18%;
+      --input: 224 40% 18%;
+      --ring: 223 84% 53%;
+      --radius: 1rem;
+      --neon: 221 83% 53%;
+      --neon-soft: 217 91% 65%;
+      --danger: 0 90% 60%;
+      --gradient-hero: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(35, 90, 232, 0.28), transparent 70%);
+      --gradient-cta: linear-gradient(135deg, #235ae8 0%, #1d4ed8 100%);
+      --shadow-neon: 0 0 0 1px rgba(35, 90, 232, 0.45), 0 10px 40px -10px rgba(35, 90, 232, 0.65);
+      --shadow-card: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
+    }
+
+    body {
+      background-color: #030712;
+      color: hsl(var(--foreground));
+      font-family: 'Inter', system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .font-display {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+    }
+
+    .text-neon {
+      color: #3b82f6;
+      text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+
+    .bg-neon {
+      background-color: #235ae8;
+    }
+
+    .border-neon {
+      border-color: #2563eb;
+    }
+
+    .border-neon\/30 {
+      border-color: rgba(37, 99, 235, 0.3);
+    }
+
+    .border-neon\/40 {
+      border-color: rgba(37, 99, 235, 0.4);
+    }
+
+    .border-neon\/50 {
+      border-color: rgba(37, 99, 235, 0.5);
+    }
+
+    .bg-neon\/10 {
+      background-color: rgba(37, 99, 235, 0.1);
+    }
+
+    .bg-neon\/15 {
+      background-color: rgba(37, 99, 235, 0.15);
+    }
+
+    .bg-neon\/20 {
+      background-color: rgba(37, 99, 235, 0.2);
+    }
+
+    .shadow-neon {
+      box-shadow: 0 0 25px rgba(37, 99, 235, 0.35), 0 10px 40px -10px rgba(29, 78, 216, 0.5);
+    }
+
+    .bg-cta {
+      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+      color: #ffffff;
+      box-shadow: 0 0 25px rgba(37, 99, 235, 0.45), 0 8px 25px -5px rgba(29, 78, 216, 0.6);
+    }
+
+    .bg-cta:hover {
+      background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+      box-shadow: 0 0 35px rgba(59, 130, 246, 0.6), 0 12px 30px -5px rgba(29, 78, 216, 0.8);
+    }
+
+    /* Pause marquee on hover */
+    .marquee-container:hover .marquee-track {
+      animation-play-state: paused !important;
+    }
+
+    /* Pulse dot animation in hero badge */
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      50% { transform: scale(1.6); opacity: 0; }
+      100% { transform: scale(0.95); opacity: 0; }
+    }
+    .pulse-dot {
+      animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    /* Hero circuit subtle background */
+    .bg-hero-glow {
+      background-image: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(37, 99, 235, 0.25), transparent 70%);
+    }
+
+    /* Bulletproof Live Enrollment Popup (Electric Blue Theme from Logo) */
+    #enrollment-popup {
+      position: fixed !important;
+      left: 16px !important;
+      bottom: 84px !important; /* Mobile safe: sits right above sticky bar */
+      z-index: 999999 !important;
+      max-width: 360px !important;
+      width: calc(100% - 32px) !important;
+      pointer-events: none !important;
+      opacity: 0 !important;
+      transform: translateY(28px) !important;
+      transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
+      display: block !important;
+    }
+
+    @media (min-width: 640px) {
+      #enrollment-popup {
+        left: 24px !important;
+        bottom: 24px !important;
+        max-width: 380px !important;
+        width: auto !important;
+      }
+    }
+
+    #enrollment-popup.show-popup {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      pointer-events: auto !important;
+    }
+
+    #enrollment-popup .popup-card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-radius: 18px;
+      border: 1.5px solid #2563eb !important;
+      background-color: rgba(6, 11, 26, 0.96) !important;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 12px 38px 12px 14px;
+      box-shadow: 0 0 25px rgba(37, 99, 235, 0.45), 0 15px 35px rgba(0, 0, 0, 0.85) !important;
+    }
+
+    #enrollment-popup .popup-icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(37, 99, 235, 0.2) !important;
+      color: #60a5fa !important;
+      border: 1px solid rgba(59, 130, 246, 0.4) !important;
+    }
+
+    #enrollment-popup .popup-name {
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    #enrollment-popup .popup-sub {
+      color: #d1d5db;
+      font-size: 12px;
+      margin: 3px 0 0 0;
+      line-height: 1.3;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    #enrollment-popup .popup-verified {
+      color: #60a5fa !important;
+      font-weight: 600;
+    }
+
+    #enrollment-popup .popup-time {
+      color: #9ca3af;
+      font-size: 11px;
+      margin: 3px 0 0 0;
+      line-height: 1.2;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    #enrollment-popup .popup-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: transparent;
+      border: none;
+      color: #9ca3af;
+      cursor: pointer;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.2s;
+    }
+
+    #enrollment-popup .popup-close:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-background text-foreground overflow-x-hidden antialiased selection:bg-blue-500/30 selection:text-white">
+
+  <!-- Top Bar 1: Launch Offer (Solid Blue matching user's logo) -->
+  <div style="background-color: #235ae8 !important; color: #ffffff !important;" class="sticky top-0 z-50 w-full py-2.5 px-3 text-center shadow-md">
+    <div class="container flex items-center justify-center gap-2 text-xs sm:text-sm font-semibold tracking-wide">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 shrink-0 animate-pulse">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+      </svg>
+      <span>LAUNCH OFFER — 95% OFF this Week!</span>
+      <span class="hidden sm:inline opacity-70">·</span>
+      <span class="hidden sm:inline">Only ₹199</span>
+    </div>
+  </div>
+
+  <!-- Top Bar 2: Countdown Timer (Solid Red matching target site) -->
+  <div style="background-color: #dc2626 !important; color: #ffffff !important;" class="w-full border-b border-red-700/40 py-2.5 px-3 text-center">
+    <div class="container flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm font-semibold">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 shrink-0">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
+      </svg>
+      <span>Offer ends in</span>
+      <div class="flex items-center gap-1.5 font-mono font-bold">
+        <span id="hours-box" class="rounded bg-black/30 px-2 py-0.5">07h</span>
+        <span>:</span>
+        <span id="minutes-box" class="rounded bg-black/30 px-2 py-0.5">31m</span>
+        <span>:</span>
+        <span id="seconds-box" class="rounded bg-black/30 px-2 py-0.5">51s</span>
+      </div>
+      <span class="hidden sm:inline opacity-90">· Price jumps to ₹499 after</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="relative bg-hero-glow">
+    <div class="container pt-10 pb-12 sm:pt-16 sm:pb-20 text-center">
+      
+      <!-- Hero Banner image -->
+      <div class="mx-auto mb-8 max-w-4xl overflow-hidden rounded-3xl border border-neon/30 shadow-neon">
+        <img src="assets/hero-banner-models.webp" alt="Earn $5,000 to $10,000/month with AI Models (+18)" class="w-full h-auto" loading="eager" />
+      </div>
+
+      <!-- Trust Badge -->
+      <div class="inline-flex items-center gap-2 rounded-full border border-neon/40 bg-neon/10 px-4 py-1.5 text-xs sm:text-sm text-neon">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inset-0 rounded-full bg-neon pulse-dot"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-neon"></span>
+        </span>
+        India's #1 AI Influencer Course
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-display mt-6 text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-tight">
+        Create a <span class="text-neon italic">Real AI Influencer</span><br />
+        <span class="opacity-90">Go Viral. Earn Lakhs.</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-muted-foreground">
+        No PC. No paid software. No subscriptions. Just your phone (Android &amp; iOS) and the right workflow — taught step-by-step in Video, beginner-friendly.
+      </p>
+
+      <!-- Price Box -->
+      <div class="mt-8 flex items-center justify-center gap-3 sm:gap-4">
+        <span class="text-2xl sm:text-3xl text-muted-foreground line-through">₹3,999</span>
+        <span class="rounded-full bg-danger px-3 py-1 text-xs font-bold text-white">95% OFF</span>
+        <span class="font-display text-5xl sm:text-6xl text-neon">₹199</span>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="mt-8 flex flex-col items-center gap-3">
+        <a href="https://pdfcart.in/p/faceless-ai-avatar" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02] active:scale-[0.99] text-base sm:text-lg">
+          <span>Enroll Now — ₹199</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <p class="text-xs text-muted-foreground flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-3.5 w-3.5 text-neon">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          7-day refund · Lifetime Access · Instant Download
+        </p>
+      </div>
+
+      <!-- Quick Feature Badges -->
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm">
+        <span class="rounded-full border border-border bg-secondary px-3 py-1.5 text-secondary-foreground">Video Tutorials</span>
+        <span class="rounded-full border border-border bg-secondary px-3 py-1.5 text-secondary-foreground">Android &amp; iOS</span>
+        <span class="rounded-full border border-border bg-secondary px-3 py-1.5 text-secondary-foreground">No PC Needed</span>
+        <span class="rounded-full border border-border bg-secondary px-3 py-1.5 text-secondary-foreground">Beginner Friendly</span>
+        <span class="rounded-full border border-border bg-secondary px-3 py-1.5 text-secondary-foreground">Lifetime Access</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Metrics / Proof Marquee Bar -->
+  <section class="border-y border-border bg-secondary/40 py-4 overflow-hidden">
+    <div class="flex w-max marquee gap-10 whitespace-nowrap text-sm text-muted-foreground">
+      <div class="flex items-center gap-10">
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">2.5M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">1.2M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">3.6M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">₹2L / month</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">100+ Subscribers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Viral Reels</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Brand Deals</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Real Earnings</span></span>
+      </div>
+      <div class="flex items-center gap-10">
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">2.5M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">1.2M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">3.6M Followers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">₹2L / month</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">100+ Subscribers</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Viral Reels</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Brand Deals</span></span>
+        <span class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span class="font-medium">Real Earnings</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component cE: Imagine Your AI Creator Looking Like This (4 Figures) -->
+  <section class="border-t border-border bg-background py-16 sm:py-24">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Your Future AI Creator</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+          Imagine Your AI Creator <span class="italic text-neon">Looking Like This</span>
+        </h2>
+        <p class="mt-4 text-muted-foreground">From one consistent AI character to a complete creator brand.</p>
+      </div>
+
+      <div class="mt-12 grid sm:grid-cols-2 gap-5">
+        <figure class="overflow-hidden rounded-3xl border border-border bg-card shadow-card hover:border-neon/50 transition-colors">
+          <img src="assets/lifestyle-content-Bwop3Gim.webp" alt="AI influencer lifestyle content" class="w-full h-auto" loading="lazy" />
+          <figcaption class="p-4 text-sm text-muted-foreground">Lifestyle Content</figcaption>
+        </figure>
+        <figure class="overflow-hidden rounded-3xl border border-border bg-card shadow-card hover:border-neon/50 transition-colors">
+          <img src="assets/expressions-DgUJzbD8.webp" alt="AI influencer expression sheet" class="w-full h-auto" loading="lazy" />
+          <figcaption class="p-4 text-sm text-muted-foreground">Expressions</figcaption>
+        </figure>
+        <figure class="overflow-hidden rounded-3xl border border-border bg-card shadow-card hover:border-neon/50 transition-colors">
+          <img src="assets/character-reference-BybTT3iO.webp" alt="AI influencer character reference sheet" class="w-full h-auto" loading="lazy" />
+          <figcaption class="p-4 text-sm text-muted-foreground">Character Reference</figcaption>
+        </figure>
+        <figure class="overflow-hidden rounded-3xl border border-border bg-card shadow-card hover:border-neon/50 transition-colors">
+          <img src="assets/portrait-variations-Ca24gZ65.webp" alt="AI influencer portrait variations" class="w-full h-auto" loading="lazy" />
+          <figcaption class="p-4 text-sm text-muted-foreground">Portrait Variations</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Influencer Pages Making Lakhs (3 Infinite Marquees with 29 Cards!) -->
+  <section class="border-t border-border bg-background py-16 sm:py-24 overflow-hidden">
+    <div class="container text-center max-w-3xl">
+      <h2 class="font-display text-4xl sm:text-6xl leading-tight">
+        AI Influencer Pages <span class="italic text-neon">Making Lakhs</span>
+      </h2>
+      <p class="mt-4 text-muted-foreground">
+        These are real subscription pages running right now — built using the exact workflow inside this course.
+      </p>
+    </div>
+
+    <!-- 3 Marquee Rows of Real Pages -->
+    <div class="mt-12 space-y-6">
+      <!-- Row 1 -->
+      <div class="flex w-max gap-5 marquee whitespace-nowrap">
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-1-DqGWL7zc.jpg" alt="nishika.irl AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@nishika.irl</p><p class="text-xs text-muted-foreground mt-1">₹180 × 5 subs</p><p class="text-neon font-bold mt-1">₹900/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-2-Cdlxqd1T.jpg" alt="aliyaleone143 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aliyaleone143</p><p class="text-xs text-muted-foreground mt-1">₹390 × 70 subs</p><p class="text-neon font-bold mt-1">₹27,300/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-3-6QGVUexI.jpg" alt="aira_rawat_ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aira_rawat_</p><p class="text-xs text-muted-foreground mt-1">₹390 × 100 subs</p><p class="text-neon font-bold mt-1">₹39,000/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-4-CB9PmPjg.jpg" alt="kvyaa.official AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@kvyaa.official</p><p class="text-xs text-muted-foreground mt-1">₹390 × 34 subs</p><p class="text-neon font-bold mt-1">₹13,260/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-5-CFRLwwOi.jpg" alt="niyatixjoshi AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@niyatixjoshi</p><p class="text-xs text-muted-foreground mt-1">₹390 × 4 subs</p><p class="text-neon font-bold mt-1">₹1,560/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-6-BtvBcbYC.jpg" alt="aira_rawat_ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aira_rawat_</p><p class="text-xs text-muted-foreground mt-1">₹390 × 101 subs</p><p class="text-neon font-bold mt-1">₹39,390/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-7-gvz4W5mb.jpg" alt="maxine_zoee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@maxine_zoee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 29 subs</p><p class="text-neon font-bold mt-1">₹8,410/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-8-DvP-s4w-.jpg" alt="bold_madhubala AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@bold_madhubala</p><p class="text-xs text-muted-foreground mt-1">₹180 × 102 subs</p><p class="text-neon font-bold mt-1">₹18,360/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-9-Cy-nrgtc.jpg" alt="jessy_jaisi_koi_nahi AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@jessy_jaisi_koi_nahi</p><p class="text-xs text-muted-foreground mt-1">₹290 × 43 subs</p><p class="text-neon font-bold mt-1">₹12,470/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-10-dScqR5N4.jpg" alt="subliminalchloe AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@subliminalchloe</p><p class="text-xs text-muted-foreground mt-1">₹180 × 75 subs</p><p class="text-neon font-bold mt-1">₹13,500/mo</p></div>
+          </div>
+        </div>
+        <!-- Duplicated loop for smooth marquee -->
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-1-DqGWL7zc.jpg" alt="nishika.irl AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@nishika.irl</p><p class="text-xs text-muted-foreground mt-1">₹180 × 5 subs</p><p class="text-neon font-bold mt-1">₹900/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-2-Cdlxqd1T.jpg" alt="aliyaleone143 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aliyaleone143</p><p class="text-xs text-muted-foreground mt-1">₹390 × 70 subs</p><p class="text-neon font-bold mt-1">₹27,300/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-3-6QGVUexI.jpg" alt="aira_rawat_ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aira_rawat_</p><p class="text-xs text-muted-foreground mt-1">₹390 × 100 subs</p><p class="text-neon font-bold mt-1">₹39,000/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-4-CB9PmPjg.jpg" alt="kvyaa.official AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@kvyaa.official</p><p class="text-xs text-muted-foreground mt-1">₹390 × 34 subs</p><p class="text-neon font-bold mt-1">₹13,260/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-5-CFRLwwOi.jpg" alt="niyatixjoshi AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@niyatixjoshi</p><p class="text-xs text-muted-foreground mt-1">₹390 × 4 subs</p><p class="text-neon font-bold mt-1">₹1,560/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-6-BtvBcbYC.jpg" alt="aira_rawat_ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@aira_rawat_</p><p class="text-xs text-muted-foreground mt-1">₹390 × 101 subs</p><p class="text-neon font-bold mt-1">₹39,390/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-7-gvz4W5mb.jpg" alt="maxine_zoee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@maxine_zoee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 29 subs</p><p class="text-neon font-bold mt-1">₹8,410/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-8-DvP-s4w-.jpg" alt="bold_madhubala AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@bold_madhubala</p><p class="text-xs text-muted-foreground mt-1">₹180 × 102 subs</p><p class="text-neon font-bold mt-1">₹18,360/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-9-Cy-nrgtc.jpg" alt="jessy_jaisi_koi_nahi AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@jessy_jaisi_koi_nahi</p><p class="text-xs text-muted-foreground mt-1">₹290 × 43 subs</p><p class="text-neon font-bold mt-1">₹12,470/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-10-dScqR5N4.jpg" alt="subliminalchloe AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@subliminalchloe</p><p class="text-xs text-muted-foreground mt-1">₹180 × 75 subs</p><p class="text-neon font-bold mt-1">₹13,500/mo</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 (Reverse) -->
+      <div class="flex w-max gap-5 marquee whitespace-nowrap" style="animation-direction: reverse;">
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-11-DbLfM0fH.jpg" alt="zaraso_phia AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@zaraso_phia</p><p class="text-xs text-muted-foreground mt-1">₹290 × 218 subs</p><p class="text-neon font-bold mt-1">₹63,220/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-12-DdpnbtqF.jpg" alt="ayashruti AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@ayashruti</p><p class="text-xs text-muted-foreground mt-1">₹290 × 54 subs</p><p class="text-neon font-bold mt-1">₹15,660/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-13-CnG-7UPh.jpg" alt="anushkadaniofficial AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@anushkadaniofficial</p><p class="text-xs text-muted-foreground mt-1">₹180 × 120 subs</p><p class="text-neon font-bold mt-1">₹21,600/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-14-CT363_Kr.jpg" alt="trendy.anika AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@trendy.anika</p><p class="text-xs text-muted-foreground mt-1">₹180 × 48 subs</p><p class="text-neon font-bold mt-1">₹8,640/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-15-BpsinYuM.jpg" alt="alisha_sharma.16 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@alisha_sharma.16</p><p class="text-xs text-muted-foreground mt-1">₹390 × 107 subs</p><p class="text-neon font-bold mt-1">₹41,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-16-a5YBN_O8.jpg" alt="payal.yadav.990 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@payal.yadav.990</p><p class="text-xs text-muted-foreground mt-1">₹95 × 105 subs</p><p class="text-neon font-bold mt-1">₹9,975/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-17-BULK3Kfw.jpg" alt="mainairahoo AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@mainairahoo</p><p class="text-xs text-muted-foreground mt-1">₹180 × 33 subs</p><p class="text-neon font-bold mt-1">₹5,940/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-18-BzWK2YUz.jpg" alt="parvathy_offical._ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@parvathy_offical._</p><p class="text-xs text-muted-foreground mt-1">₹290 × 159 subs</p><p class="text-neon font-bold mt-1">₹46,110/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-19-B9O6sErU.jpg" alt="anok.hiano02244 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@anok.hiano02244</p><p class="text-xs text-muted-foreground mt-1">₹290 × 13 subs</p><p class="text-neon font-bold mt-1">₹3,770/mo</p></div>
+          </div>
+        </div>
+        <!-- Duplicated loop for smooth marquee -->
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-11-DbLfM0fH.jpg" alt="zaraso_phia AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@zaraso_phia</p><p class="text-xs text-muted-foreground mt-1">₹290 × 218 subs</p><p class="text-neon font-bold mt-1">₹63,220/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-12-DdpnbtqF.jpg" alt="ayashruti AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@ayashruti</p><p class="text-xs text-muted-foreground mt-1">₹290 × 54 subs</p><p class="text-neon font-bold mt-1">₹15,660/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-13-CnG-7UPh.jpg" alt="anushkadaniofficial AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@anushkadaniofficial</p><p class="text-xs text-muted-foreground mt-1">₹180 × 120 subs</p><p class="text-neon font-bold mt-1">₹21,600/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-14-CT363_Kr.jpg" alt="trendy.anika AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@trendy.anika</p><p class="text-xs text-muted-foreground mt-1">₹180 × 48 subs</p><p class="text-neon font-bold mt-1">₹8,640/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-15-BpsinYuM.jpg" alt="alisha_sharma.16 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@alisha_sharma.16</p><p class="text-xs text-muted-foreground mt-1">₹390 × 107 subs</p><p class="text-neon font-bold mt-1">₹41,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-16-a5YBN_O8.jpg" alt="payal.yadav.990 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@payal.yadav.990</p><p class="text-xs text-muted-foreground mt-1">₹95 × 105 subs</p><p class="text-neon font-bold mt-1">₹9,975/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-17-BULK3Kfw.jpg" alt="mainairahoo AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@mainairahoo</p><p class="text-xs text-muted-foreground mt-1">₹180 × 33 subs</p><p class="text-neon font-bold mt-1">₹5,940/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-18-BzWK2YUz.jpg" alt="parvathy_offical._ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@parvathy_offical._</p><p class="text-xs text-muted-foreground mt-1">₹290 × 159 subs</p><p class="text-neon font-bold mt-1">₹46,110/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-19-B9O6sErU.jpg" alt="anok.hiano02244 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@anok.hiano02244</p><p class="text-xs text-muted-foreground mt-1">₹290 × 13 subs</p><p class="text-neon font-bold mt-1">₹3,770/mo</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="flex w-max gap-5 marquee whitespace-nowrap">
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-20-yMCHkYOG.jpg" alt="parvathy_offical._ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@parvathy_offical._</p><p class="text-xs text-muted-foreground mt-1">₹290 × 159 subs</p><p class="text-neon font-bold mt-1">₹46,110/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-21-BgA8IuTJ.jpg" alt="kavy_k15 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@kavy_k15</p><p class="text-xs text-muted-foreground mt-1">₹290 × 8 subs</p><p class="text-neon font-bold mt-1">₹2,320/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-22-lBic-pDg.jpg" alt="cool.kishmish AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@cool.kishmish</p><p class="text-xs text-muted-foreground mt-1">₹290 × 42 subs</p><p class="text-neon font-bold mt-1">₹12,180/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-23-D1Hb9e57.jpg" alt="adhirashreee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adhirashreee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 37 subs</p><p class="text-neon font-bold mt-1">₹10,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-24-DKoY_l8R.jpg" alt="adhirashreee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adhirashreee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 37 subs</p><p class="text-neon font-bold mt-1">₹10,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-25-BcsD5EqE.jpg" alt="your_dailydosez AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@your_dailydosez</p><p class="text-xs text-muted-foreground mt-1">₹180 × 16 subs</p><p class="text-neon font-bold mt-1">₹2,880/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-26-BhgIVPfZ.jpg" alt="sassykritika AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@sassykritika</p><p class="text-xs text-muted-foreground mt-1">₹290 × 26 subs</p><p class="text-neon font-bold mt-1">₹7,540/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-27-CEhWnjU3.jpg" alt="adititiwari.ofcl AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adititiwari.ofcl</p><p class="text-xs text-muted-foreground mt-1">₹290 × 204 subs</p><p class="text-neon font-bold mt-1">₹59,160/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-28-8rhbAu9x.jpg" alt="sizzlingsonamm AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@sizzlingsonamm</p><p class="text-xs text-muted-foreground mt-1">₹180 × 8 subs</p><p class="text-neon font-bold mt-1">₹1,440/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-29-DjMyujGU.jpg" alt="ishaanvi.sharma.ofc AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@ishaanvi.sharma.ofc</p><p class="text-xs text-muted-foreground mt-1">₹290 × 16 subs</p><p class="text-neon font-bold mt-1">₹4,640/mo</p></div>
+          </div>
+        </div>
+        <!-- Duplicated loop for smooth marquee -->
+        <div class="flex items-center gap-5">
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-20-yMCHkYOG.jpg" alt="parvathy_offical._ AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@parvathy_offical._</p><p class="text-xs text-muted-foreground mt-1">₹290 × 159 subs</p><p class="text-neon font-bold mt-1">₹46,110/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-21-BgA8IuTJ.jpg" alt="kavy_k15 AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@kavy_k15</p><p class="text-xs text-muted-foreground mt-1">₹290 × 8 subs</p><p class="text-neon font-bold mt-1">₹2,320/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-22-lBic-pDg.jpg" alt="cool.kishmish AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@cool.kishmish</p><p class="text-xs text-muted-foreground mt-1">₹290 × 42 subs</p><p class="text-neon font-bold mt-1">₹12,180/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-23-D1Hb9e57.jpg" alt="adhirashreee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adhirashreee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 37 subs</p><p class="text-neon font-bold mt-1">₹10,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-24-DKoY_l8R.jpg" alt="adhirashreee AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adhirashreee</p><p class="text-xs text-muted-foreground mt-1">₹290 × 37 subs</p><p class="text-neon font-bold mt-1">₹10,730/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-25-BcsD5EqE.jpg" alt="your_dailydosez AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@your_dailydosez</p><p class="text-xs text-muted-foreground mt-1">₹180 × 16 subs</p><p class="text-neon font-bold mt-1">₹2,880/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-26-BhgIVPfZ.jpg" alt="sassykritika AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@sassykritika</p><p class="text-xs text-muted-foreground mt-1">₹290 × 26 subs</p><p class="text-neon font-bold mt-1">₹7,540/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-27-CEhWnjU3.jpg" alt="adititiwari.ofcl AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@adititiwari.ofcl</p><p class="text-xs text-muted-foreground mt-1">₹290 × 204 subs</p><p class="text-neon font-bold mt-1">₹59,160/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-28-8rhbAu9x.jpg" alt="sizzlingsonamm AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@sizzlingsonamm</p><p class="text-xs text-muted-foreground mt-1">₹180 × 8 subs</p><p class="text-neon font-bold mt-1">₹1,440/mo</p></div>
+          </div>
+          <div class="w-[220px] sm:w-[260px] shrink-0 rounded-2xl border border-border bg-card overflow-hidden shadow-card hover:border-neon/50 transition-colors">
+            <img src="assets/influencer-29-DjMyujGU.jpg" alt="ishaanvi.sharma.ofc AI influencer subscription page" class="w-full h-[340px] sm:h-[380px] object-cover" loading="lazy" />
+            <div class="p-4"><p class="font-display text-lg truncate">@ishaanvi.sharma.ofc</p><p class="text-xs text-muted-foreground mt-1">₹290 × 16 subs</p><p class="text-neon font-bold mt-1">₹4,640/mo</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-12 flex justify-center">
+      <a href="https://pdfcart.in/p/faceless-ai-avatar" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02] active:scale-[0.99] text-base sm:text-lg">
+        <span>Start Your AI Page — ₹199</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Component dE: Instagram Profile Showcase (Marquee) -->
+  <section class="border-t border-border bg-secondary/20 py-16 sm:py-24 overflow-hidden">
+    <div class="container text-center max-w-2xl">
+      <p class="text-neon text-sm font-semibold tracking-widest uppercase">Instagram Profile Showcase</p>
+      <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+        Build A Creator Profile <span class="italic text-neon">That Looks Real</span>
+      </h2>
+      <p class="mt-4 text-muted-foreground">
+        Create a believable AI creator identity with a consistent personality, style and visual branding.
+      </p>
+    </div>
+
+    <div class="mt-12 flex w-max gap-5 marquee-slow">
+      <div class="flex items-center gap-5">
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-adiiti-B7IKMNY6.webp" alt="AI creator Instagram profile preview 1" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-riya-DDNZkicf.webp" alt="AI creator Instagram profile preview 2" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-nishka-DRK70_cM.webp" alt="AI creator Instagram profile preview 3" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-sushmita-DY76Azri.webp" alt="AI creator Instagram profile preview 4" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-kavini-CWdEiq8P.webp" alt="AI creator Instagram profile preview 5" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-khushi-Dz7Jq0l0.webp" alt="AI creator Instagram profile preview 6" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-priya-5Ymo8K7H.webp" alt="AI creator Instagram profile preview 7" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-sireesha-CqcMhE6q.webp" alt="AI creator Instagram profile preview 8" class="w-full h-auto" loading="lazy" />
+        </div>
+      </div>
+      <!-- Duplicated for loop -->
+      <div class="flex items-center gap-5">
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-adiiti-B7IKMNY6.webp" alt="AI creator Instagram profile preview 1" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-riya-DDNZkicf.webp" alt="AI creator Instagram profile preview 2" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-nishka-DRK70_cM.webp" alt="AI creator Instagram profile preview 3" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-sushmita-DY76Azri.webp" alt="AI creator Instagram profile preview 4" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-kavini-CWdEiq8P.webp" alt="AI creator Instagram profile preview 5" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-khushi-Dz7Jq0l0.webp" alt="AI creator Instagram profile preview 6" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-priya-5Ymo8K7H.webp" alt="AI creator Instagram profile preview 7" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[220px] sm:w-[260px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/profile-sireesha-CqcMhE6q.webp" alt="AI creator Instagram profile preview 8" class="w-full h-auto" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component fE: Reels Showcase (Marquee Reverse + 4 Feature Cards) -->
+  <section class="border-t border-border bg-background py-16 sm:py-24 overflow-hidden">
+    <div class="container text-center max-w-2xl">
+      <p class="text-neon text-sm font-semibold tracking-widest uppercase">Reels Showcase</p>
+      <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+        Create Scroll-Stopping <span class="italic text-neon">AI Reels</span>
+      </h2>
+      <p class="mt-4 text-muted-foreground">
+        Turn ideas into engaging short-form videos designed to capture attention.
+      </p>
+    </div>
+
+    <div class="mt-12 flex w-max gap-5 marquee-reverse">
+      <div class="flex items-center gap-5">
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-khushi-BXiCAW4O.webp" alt="AI creator viral reel 1" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-anjali-DUuu4Jnf.webp" alt="AI creator viral reel 2" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-devuu-BoA5FNaX.webp" alt="AI creator viral reel 3" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-shibraaa-CIEdlgJC.webp" alt="AI creator viral reel 4" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-gym-DcQHhRxP.jpg" alt="AI creator viral reel 5" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-teacher-DRmmLLV3.webp" alt="AI creator viral reel 6" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-laundry-D8HDtvHf.jpg" alt="AI creator viral reel 7" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-yoga-Y6KSDowr.webp" alt="AI creator viral reel 8" class="w-full h-auto" loading="lazy" />
+        </div>
+      </div>
+      <!-- Duplicated for loop -->
+      <div class="flex items-center gap-5">
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-khushi-BXiCAW4O.webp" alt="AI creator viral reel 1" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-anjali-DUuu4Jnf.webp" alt="AI creator viral reel 2" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-devuu-BoA5FNaX.webp" alt="AI creator viral reel 3" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-shibraaa-CIEdlgJC.webp" alt="AI creator viral reel 4" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-gym-DcQHhRxP.jpg" alt="AI creator viral reel 5" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-teacher-DRmmLLV3.webp" alt="AI creator viral reel 6" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-laundry-D8HDtvHf.jpg" alt="AI creator viral reel 7" class="w-full h-auto" loading="lazy" />
+        </div>
+        <div class="w-[200px] sm:w-[240px] shrink-0 overflow-hidden rounded-2xl border border-border bg-card shadow-card">
+          <img src="assets/reel-yoga-Y6KSDowr.webp" alt="AI creator viral reel 8" class="w-full h-auto" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 Feature Cards under Reels -->
+    <div class="container mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+        <span class="text-3xl">🎭</span>
+        <h3 class="font-display mt-4 text-xl">Character Consistency</h3>
+        <p class="mt-2 text-sm text-muted-foreground">Maintain the same AI identity across unlimited content.</p>
+      </div>
+      <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+        <span class="text-3xl">📸</span>
+        <h3 class="font-display mt-4 text-xl">Unlimited Content</h3>
+        <p class="mt-2 text-sm text-muted-foreground">Generate photos, reels and posts faster.</p>
+      </div>
+      <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+        <span class="text-3xl">🚀</span>
+        <h3 class="font-display mt-4 text-xl">Audience Growth</h3>
+        <p class="mt-2 text-sm text-muted-foreground">Build an engaging creator profile people want to follow.</p>
+      </div>
+      <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+        <span class="text-3xl">💰</span>
+        <h3 class="font-display mt-4 text-xl">Multiple Monetization Paths</h3>
+        <p class="mt-2 text-sm text-muted-foreground">Subscriptions, digital products, affiliate marketing and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 100% Money-Back Guarantee Section -->
+  <section class="border-t border-border bg-secondary/20 py-16 sm:py-20">
+    <div class="container max-w-5xl">
+      <h2 class="font-display text-center text-4xl sm:text-5xl leading-tight">
+        Nothing to lose. <span class="italic text-neon">Everything to gain.</span>
+      </h2>
+      <div class="mt-10 overflow-hidden rounded-3xl border border-border bg-card shadow-card">
+        <img src="assets/money-back-evgJdfQW.jpeg" alt="100% Money-Back Guarantee — 7-day risk-free refund" class="w-full h-auto" loading="lazy" />
+      </div>
+      <div class="mt-8 flex justify-center">
+        <a href="https://pdfcart.in/p/faceless-ai-avatar" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02] active:scale-[0.99] text-base sm:text-lg">
+          <span>Start Risk-Free — ₹199</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Master the Workflow: Comparison & Syllabus -->
+  <section class="border-t border-border bg-secondary/30 py-20 sm:py-28">
+    <div class="container grid lg:grid-cols-2 gap-14 items-start">
+      <!-- Left side: Comparison (Clean Unboxed List matching Target Site) -->
+      <div>
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Master the Workflow</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+          Master <span class="italic text-neon">AI Influencer</span><br /> &amp; Earn Lakhs
+        </h2>
+
+        <ul class="mt-8 space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </span>
+            <span class="text-muted-foreground">NO Higgsfield subscription required</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </span>
+            <span class="text-muted-foreground">NO PC Required - Use in Mobile also</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </span>
+            <span class="text-muted-foreground">No paid software required</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Video Format</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Beginner friendly — no skills needed</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Step-by-step video tutorials</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Create real, viral influencer pages</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Lifetime access + instant download</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>7-day refund guarantee</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right side: The Full A->Z System -->
+      <div class="rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-card">
+        <div class="flex items-center gap-2 text-neon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span class="text-sm font-semibold tracking-widest uppercase">What you'll learn</span>
+        </div>
+        <h3 class="font-display mt-3 text-3xl sm:text-4xl">The full A→Z system</h3>
+        
+        <ul class="mt-6 space-y-4">
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">01</span>
+            <span class="text-foreground/90">Create a hyper-realistic AI character</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">02</span>
+            <span class="text-foreground/90">Generate professional photoshoot images using AI</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">03</span>
+            <span class="text-foreground/90">Become a digital AI influencer from scratch</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">04</span>
+            <span class="text-foreground/90">Make viral Instagram Reels &amp; short-form content</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">05</span>
+            <span class="text-foreground/90">Write captions and hooks that pull followers</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">06</span>
+            <span class="text-foreground/90">Use AI tools to generate content in minutes</span>
+          </li>
+          <li class="flex items-start gap-3 border-b border-border/60 pb-4">
+            <span class="font-display text-2xl text-neon w-8">07</span>
+            <span class="text-foreground/90">Convert any image into a viral-style video</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="font-display text-2xl text-neon w-8">08</span>
+            <span class="text-foreground/90">Monetise via subscriptions, brand deals &amp; promos</span>
+          </li>
+        </ul>
+
+        <div class="mt-8">
+          <a href="https://pdfcart.in/p/faceless-ai-avatar" class="w-full group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02]">
+            <span>Get Instant Access — ₹199</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Simple Steps: Watch. Build. Earn. -->
+  <section class="container py-20 sm:py-28">
+    <div class="text-center max-w-2xl mx-auto">
+      <p class="text-neon text-sm font-semibold tracking-widest uppercase">3 Simple Steps</p>
+      <h2 class="font-display mt-3 text-4xl sm:text-6xl">
+        Watch. Build. <span class="italic text-neon">Earn.</span>
+      </h2>
+    </div>
+
+    <div class="mt-14 grid md:grid-cols-3 gap-6">
+      <div class="rounded-3xl border border-border bg-card p-8 shadow-card hover:border-neon/50 transition-colors">
+        <div class="flex items-center justify-between">
+          <span class="font-display text-5xl text-neon">01</span>
+          <span class="text-2xl">📱</span>
+        </div>
+        <h3 class="font-display mt-6 text-2xl">Watch the lessons</h3>
+        <p class="mt-3 text-muted-foreground">Open on your Android or iOS phone. Easy video tutorials to follow.</p>
+      </div>
+
+      <div class="rounded-3xl border border-border bg-card p-8 shadow-card hover:border-neon/50 transition-colors">
+        <div class="flex items-center justify-between">
+          <span class="font-display text-5xl text-neon">02</span>
+          <span class="text-2xl">🤖</span>
+        </div>
+        <h3 class="font-display mt-6 text-2xl">Build your AI Influencer</h3>
+        <p class="mt-3 text-muted-foreground">Create a hyper-realistic character + viral reels using free AI tools.</p>
+      </div>
+
+      <div class="rounded-3xl border border-border bg-card p-8 shadow-card hover:border-neon/50 transition-colors">
+        <div class="flex items-center justify-between">
+          <span class="font-display text-5xl text-neon">03</span>
+          <span class="text-2xl">📈</span>
+        </div>
+        <h3 class="font-display mt-6 text-2xl">Grow &amp; Monetise</h3>
+        <p class="mt-3 text-muted-foreground">Get followers, open subscriptions, land brand deals — earn lakhs/month.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component gE: AI Creator Ecosystem -->
+  <section class="border-t border-border bg-secondary/20 py-16 sm:py-24">
+    <div class="container text-center max-w-2xl mx-auto">
+      <p class="text-neon text-sm font-semibold tracking-widest uppercase">AI Creator Ecosystem</p>
+      <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+        Everything Connects To <span class="italic text-neon">Your AI Creator</span>
+      </h2>
+      <p class="mt-4 text-muted-foreground">One consistent identity powering an entire creator business.</p>
+    </div>
+
+    <div class="container mt-12 flex flex-wrap items-center justify-center gap-3">
+      <span class="rounded-full bg-neon px-6 py-3 font-display text-lg text-white font-bold shadow-neon">Your AI Creator</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">AI Photos</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">AI Videos</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Instagram Reels</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Instagram Feed</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Followers</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Subscriptions</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Brand Deals</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Digital Products</span>
+      <span class="rounded-full border border-border bg-card px-5 py-3 text-sm">Creator Business</span>
+    </div>
+  </section>
+
+  <!-- Component yE: Imagine 2 Months From Now -->
+  <section class="border-t border-border bg-background py-16 sm:py-24">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Imagine 2 Months From Now</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+          Imagine Where Your AI Creator <span class="italic text-neon">Could Be in Just 2 Months</span>
+        </h2>
+        <p class="mt-4 text-muted-foreground">
+          With consistent action and the right workflow, you could build a recognizable AI creator brand, publish content consistently, and start creating monetization opportunities.
+        </p>
+      </div>
+
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🎭</span>
+          <h3 class="font-display mt-4 text-2xl">A Consistent AI Influencer</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build one recognizable AI identity that stays consistent across every post, reel and photo.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">📈</span>
+          <h3 class="font-display mt-4 text-2xl">Growing Audience</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Start attracting followers through engaging AI-generated content.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🎬</span>
+          <h3 class="font-display mt-4 text-2xl">A Library of Viral Content</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Create a growing collection of reels, posts and stories without showing your own face.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🤝</span>
+          <h3 class="font-display mt-4 text-2xl">Collaboration Opportunities</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build a professional creator profile that can attract partnerships and brand interest over time.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">💎</span>
+          <h3 class="font-display mt-4 text-2xl">Digital Product Ready</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Launch your own digital products, prompt packs or creator resources around your AI brand.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🚀</span>
+          <h3 class="font-display mt-4 text-2xl">A Scalable AI Creator Business</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build systems and assets that can continue growing with consistent effort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component vE: Learn Industry-Leading AI Tools Marquee -->
+  <section class="border-t border-border bg-secondary/30 py-12 overflow-hidden">
+    <div class="container text-center mb-8">
+      <p class="text-neon text-sm font-semibold tracking-widest uppercase">AI Tools Strip</p>
+      <h2 class="font-display mt-3 text-3xl sm:text-4xl">Learn Industry-Leading AI Tools</h2>
+    </div>
+
+    <div class="flex w-max gap-8 marquee whitespace-nowrap">
+      <div class="flex items-center gap-8">
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">ChatGPT</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Google AI Studio</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Nano Banana</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Kling AI</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Seedream</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Midjourney</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Flux</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Runway</span>
+      </div>
+      <!-- Duplicated for loop -->
+      <div class="flex items-center gap-8">
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">ChatGPT</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Google AI Studio</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Nano Banana</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Kling AI</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Seedream</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Midjourney</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Flux</span>
+        <span class="rounded-full border border-border bg-card px-6 py-3 font-display text-xl">Runway</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component xE: Everything You Need to Launch Your First AI Influencer -->
+  <section class="border-t border-border bg-background py-16 sm:py-24">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Everything You'll Learn</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+          Everything You Need to Launch Your <span class="italic text-neon">First AI Influencer</span>
+        </h2>
+        <p class="mt-4 text-muted-foreground">
+          No confusing tutorials or random YouTube videos. Follow one structured system to create a realistic AI influencer, grow an audience and start building a creator business.
+        </p>
+      </div>
+
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🎭</span>
+          <h3 class="font-display mt-4 text-2xl">AI Influencer Creation</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Learn how to create a unique, realistic AI influencer from scratch.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">📸</span>
+          <h3 class="font-display mt-4 text-2xl">Unlimited AI Images</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Generate unlimited high-quality lifestyle, fashion and creator photos.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🎬</span>
+          <h3 class="font-display mt-4 text-2xl">AI Reels &amp; Videos</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Create realistic talking videos and viral short-form content.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🧠</span>
+          <h3 class="font-display mt-4 text-2xl">Character Consistency</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Keep the same face, appearance and personality across all content.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">📅</span>
+          <h3 class="font-display mt-4 text-2xl">Content Planning System</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Never run out of content ideas again.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">✍️</span>
+          <h3 class="font-display mt-4 text-2xl">Prompt Engineering</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Learn how to write prompts that generate premium-quality results.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">📈</span>
+          <h3 class="font-display mt-4 text-2xl">Instagram Growth</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build a professional creator page that attracts followers.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">💰</span>
+          <h3 class="font-display mt-4 text-2xl">Monetization Blueprint</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Explore subscriptions, affiliate marketing, brand collaborations and digital products.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-6 hover:border-neon/50 transition-colors">
+          <span class="text-3xl">🤖</span>
+          <h3 class="font-display mt-4 text-2xl">Complete AI Workflow</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Learn how multiple AI tools work together in one simple system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component wE: Why This Course Is Different (Clean unboxed lists matching target site) -->
+  <section class="border-t border-border bg-secondary/20 py-16 sm:py-24">
+    <div class="container max-w-5xl">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Why This Course Is Different</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-5xl leading-tight">
+          Stop Learning Random AI Tricks. <span class="italic text-neon">Build a Complete Creator System.</span>
+        </h2>
+      </div>
+
+      <div class="mt-12 grid md:grid-cols-2 gap-5">
+        <div class="rounded-3xl border border-border bg-card p-8">
+          <h3 class="font-display text-2xl text-muted-foreground">Traditional Learning</h3>
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start gap-3 text-muted-foreground">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </span>
+              <span>Random YouTube Videos</span>
+            </li>
+            <li class="flex items-start gap-3 text-muted-foreground">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </span>
+              <span>No Structure</span>
+            </li>
+            <li class="flex items-start gap-3 text-muted-foreground">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </span>
+              <span>Outdated Tutorials</span>
+            </li>
+            <li class="flex items-start gap-3 text-muted-foreground">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </span>
+              <span>Inconsistent Results</span>
+            </li>
+            <li class="flex items-start gap-3 text-muted-foreground">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-danger text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </span>
+              <span>No Monetization Plan</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-neon/40 bg-card p-8 shadow-neon">
+          <h3 class="font-display text-2xl text-neon">AI Influencer Mastery</h3>
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Step-by-Step Roadmap</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Beginner Friendly</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Proven Workflow</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Consistent AI Characters</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-neon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Multiple Monetization Methods</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Pricing & Offer Card (Target #pricing) -->
+  <section id="pricing" class="container py-20 sm:py-28">
+    <div class="relative max-w-3xl mx-auto rounded-3xl border border-neon/40 bg-card p-8 sm:p-12 shadow-neon overflow-hidden">
+      <div class="absolute -top-24 -right-24 h-64 w-64 rounded-full bg-neon/20 blur-3xl pointer-events-none"></div>
+      
+      <div class="relative">
+        <div class="flex items-center gap-2 text-neon text-sm font-semibold tracking-widest uppercase">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Limited Time Offer
+        </div>
+        
+        <h2 class="font-display mt-4 text-4xl sm:text-5xl leading-tight">
+          Everything you get for <span class="italic text-neon">just ₹199</span>
+        </h2>
+
+        <!-- Clean spacious checklist matching target site -->
+        <ul class="mt-8 grid sm:grid-cols-2 gap-3">
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Full AI Influencer Course</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Hyper-realistic Character Workflow</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Viral Reel Creation System</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Caption + Hook Templates</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Free Tool Stack (₹0 forever)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Mobile-Friendly Video Tutorials</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Lifetime Access &amp; Future Updates</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-neon shrink-0 mt-0.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>7-day Money-Back Guarantee</span>
+          </li>
+        </ul>
+
+        <div class="mt-10 flex flex-wrap items-end gap-4">
+          <span class="text-2xl text-muted-foreground line-through">₹3,999</span>
+          <span class="font-display text-6xl sm:text-7xl text-neon leading-none">₹199</span>
+          <span class="rounded-full bg-danger px-3 py-1 text-xs font-bold text-white mb-2">95% OFF</span>
+        </div>
+
+        <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-4">
+          <a href="https://pdfcart.in/p/faceless-ai-avatar" class="w-full sm:w-auto group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-8 py-4 font-bold text-white shadow-neon transition-transform hover:scale-[1.02] text-lg sm:text-xl">
+            <span>Buy Now — ₹199</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <p class="text-xs text-muted-foreground flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-neon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Secure checkout · Tomorrow's price ₹499
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Component CE: Student Reviews / Testimonials -->
+  <section class="border-t border-border bg-secondary/20 py-16 sm:py-24">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-neon text-sm font-semibold tracking-widest uppercase">Why People Love This System</p>
+        <h2 class="font-display mt-3 text-4xl sm:text-6xl leading-tight">
+          Real Students. <span class="italic text-neon">Real Progress.</span>
+        </h2>
+        <p class="mt-4 text-muted-foreground">
+          Thousands of people don't need to see your face. They just need content worth following.
+        </p>
+      </div>
+
+      <div class="mt-12 grid md:grid-cols-3 gap-5">
+        <!-- Review 1: Rohit Verma -->
+        <div class="rounded-2xl border border-border bg-card p-6 shadow-card">
+          <div class="flex items-center gap-3">
+            <img src="assets/rohit-D9VYgmrp.jpg" alt="Rohit Verma — verified student" class="h-12 w-12 rounded-full object-cover" loading="lazy" />
+            <div>
+              <p class="font-display text-lg">Rohit Verma</p>
+              <p class="text-xs text-neon">Verified Student</p>
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-muted-foreground">
+            "Bhai, honestly mujhe pehle lagta tha AI Influencer banana bahut complicated hoga. Is course ne pura process step-by-step simplify kar diya. Sirf prompts copy karke hi maine apna pehla AI influencer create kar liya. ₹199 ke hisaab se value honestly expected se bahut zyada mili."
+          </p>
+        </div>
+
+        <!-- Review 2: Arjun Singh -->
+        <div class="rounded-2xl border border-border bg-card p-6 shadow-card">
+          <div class="flex items-center gap-3">
+            <img src="assets/arjun-VTDaYYUR.jpg" alt="Arjun Singh — verified student" class="h-12 w-12 rounded-full object-cover" loading="lazy" />
+            <div>
+              <p class="font-display text-lg">Arjun Singh</p>
+              <p class="text-xs text-neon">Verified Student</p>
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-muted-foreground">
+            "Sabse best cheez mujhe Prompt Library lagi. Pehle har image ke liye prompt sochna padta tha. Ab bas select karo aur generate karo. Reel templates aur motion prompts ne mera kaafi time bacha diya. Agar beginner ho to definitely recommend karunga."
+          </p>
+        </div>
+
+        <!-- Review 3: Vivek Sharma -->
+        <div class="rounded-2xl border border-border bg-card p-6 shadow-card">
+          <div class="flex items-center gap-3">
+            <img src="assets/vivek-B5SgERDR.jpg" alt="Vivek Sharma — verified student" class="h-12 w-12 rounded-full object-cover" loading="lazy" />
+            <div>
+              <p class="font-display text-lg">Vivek Sharma</p>
+              <p class="text-xs text-neon">Verified Student</p>
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-muted-foreground">
+            "Maine YouTube pe bahut videos dekhe the lekin sab incomplete the. Yahan pura workflow ek jagah mil gaya. Character consistency se lekar reels aur monetization tak sab kuch properly explain kiya gaya hai. Ab mera AI page daily grow ho raha hai."
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-8 text-center text-sm text-muted-foreground">Trusted by Aspiring AI Creators Across India</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section with Native Interactive Accordion -->
+  <section class="border-t border-border bg-secondary/30 py-20">
+    <div class="container max-w-3xl">
+      <h2 class="font-display text-4xl sm:text-5xl text-center">
+        Questions? <span class="italic text-neon">Answers.</span>
+      </h2>
+
+      <div class="mt-10 space-y-3">
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Do I need a PC or laptop?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">No. Everything is built on a phone — works on both Android and iOS.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Do I need any prior AI experience?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Zero. Complete beginners welcome. Tutorials are step-by-step in Video.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Are the AI tools actually free?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Yes. We use only free tiers — no credit card needed, no subscription required.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>How will I get the course?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Instant access right after payment. Lifetime access, watch anytime.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Is there a refund?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Yes — 7-day refund guarantee. If it's not for you, we refund. No questions asked.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Will I receive future updates?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Yes. Future course improvements and updates are included free of charge.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Which AI tools are used?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">The course demonstrates practical workflows using popular AI tools. Tool availability and features may change over time.</p>
+        </details>
+
+        <details class="group rounded-2xl border border-border bg-card p-5 open:border-neon/50">
+          <summary class="cursor-pointer list-none flex items-center justify-between font-medium">
+            <span>Can I watch on mobile?</span>
+            <span class="text-neon text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-muted-foreground">Yes. The course is designed to be accessible on desktop, tablet and mobile.</p>
+        </details>
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="https://pdfcart.in/p/faceless-ai-avatar" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02] active:scale-[0.99] text-base sm:text-lg">
+          <span>Enroll Now — ₹199</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (kE) -->
+  <section class="border-t border-border bg-background py-16 sm:py-24">
+    <div class="container max-w-3xl text-center">
+      <h2 class="font-display text-4xl sm:text-5xl leading-tight">
+        Your AI Creator Journey <span class="italic text-neon">Starts Today</span>
+      </h2>
+      <p class="mt-4 text-muted-foreground">
+        Stop waiting for the perfect time. Start learning, creating and building your AI creator with one structured system.
+      </p>
+      
+      <div class="mt-8 flex flex-col items-center gap-3">
+        <a href="https://pdfcart.in/p/faceless-ai-avatar" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-cta px-7 py-4 font-semibold text-white shadow-neon transition-transform hover:scale-[1.02]">
+          <span class="text-base sm:text-lg">Get Instant Access for ₹199</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <p class="text-xs text-muted-foreground flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-3.5 w-3.5 text-neon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          Lifetime Access · Instant Delivery · One-Time Payment
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-border py-10 pb-28 md:pb-10">
+    <div class="container text-center text-xs text-muted-foreground space-y-2">
+      <p class="font-display text-xl text-foreground">#1 AI Influencer Course</p>
+      <p>© 2026 AI Creator Academy. All rights reserved. This site is not affiliated with Instagram, Meta or any influencer shown.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Sticky Bottom Bar -->
+  <div class="fixed bottom-0 inset-x-0 z-50 md:hidden border-t border-neon/30 bg-background/95 backdrop-blur-md p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_30px_rgba(0,0,0,0.5)]">
+    <a href="https://pdfcart.in/p/faceless-ai-avatar" class="flex items-center justify-center gap-2 rounded-2xl bg-cta px-5 py-3.5 font-bold text-white shadow-neon active:scale-[0.98] transition-transform">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+      <span>Enroll Now — ₹199</span>
+      <span class="text-xs opacity-80 line-through ml-1">₹3,999</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </a>
+  </div>
+
+  <!-- Live Enrollment Popup Notification (Blue theme from logo, 7s interval, 62 Indian cities) -->
+  <div id="enrollment-popup" role="status" aria-live="polite">
+    <div class="popup-card">
+      <!-- Shield Checkmark Icon (Exact Lucide ShieldCheck in Electric Blue) -->
+      <div class="popup-icon-box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+          <path d="m9 12 2 2 4-4"></path>
+        </svg>
+      </div>
+      <!-- Details -->
+      <div>
+        <p id="popup-buyer-name" class="popup-name">Neha P. from Jaipur</p>
+        <p class="popup-sub">just enrolled · <span class="popup-verified">Verified ✓</span></p>
+        <p id="popup-buyer-time" class="popup-time">6 min ago</p>
+      </div>
+      <!-- Close button -->
+      <button id="close-popup-btn" aria-label="Close" class="popup-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Live Interactivity Script -->
+  <script>
+    // Live Countdown Timer
+    function updateCountdown() {
+      const now = new Date();
+      const endOfDay = new Date();
+      endOfDay.setHours(23, 59, 59, 999);
+      let diff = Math.max(0, endOfDay - now);
+
+      const h = Math.floor(diff / (1000 * 60 * 60));
+      const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+      const pad = n => String(n).padStart(2, '0');
+      const hb = document.getElementById('hours-box');
+      const mb = document.getElementById('minutes-box');
+      const sb = document.getElementById('seconds-box');
+      if (hb) hb.textContent = pad(h) + 'h';
+      if (mb) mb.textContent = pad(m) + 'm';
+      if (sb) sb.textContent = pad(s) + 's';
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // Live Buyers Notification Loop (Changes every 7 seconds across 62 Indian cities)
+    const buyers = [
+  {
+    "name": "Neha P.",
+    "city": "Jaipur",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Rahul S.",
+    "city": "Mumbai",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Priya K.",
+    "city": "Delhi",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Aditya R.",
+    "city": "Bengaluru",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Sneha M.",
+    "city": "Pune",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Arjun V.",
+    "city": "Hyderabad",
+    "time": "just now"
+  },
+  {
+    "name": "Rohit T.",
+    "city": "Lucknow",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Kavya I.",
+    "city": "Chennai",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Vikas D.",
+    "city": "Ahmedabad",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Ananya G.",
+    "city": "Kolkata",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Manish J.",
+    "city": "Indore",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Pooja N.",
+    "city": "Surat",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Deepak C.",
+    "city": "Patna",
+    "time": "just now"
+  },
+  {
+    "name": "Ritu B.",
+    "city": "Chandigarh",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Aman K.",
+    "city": "Bhopal",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Shreya D.",
+    "city": "Kochi",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Karan M.",
+    "city": "Nagpur",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Divya S.",
+    "city": "Dehradun",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Varun G.",
+    "city": "Varanasi",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Megha R.",
+    "city": "Bhubaneswar",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Kunal Y.",
+    "city": "Guwahati",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Simran K.",
+    "city": "Amritsar",
+    "time": "just now"
+  },
+  {
+    "name": "Nikhil B.",
+    "city": "Vadodara",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Tanvi P.",
+    "city": "Coimbatore",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Harish M.",
+    "city": "Visakhapatnam",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Ankita S.",
+    "city": "Ranchi",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Gaurav T.",
+    "city": "Agra",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Sonam L.",
+    "city": "Shimla",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Mohit S.",
+    "city": "Jodhpur",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Payal R.",
+    "city": "Raipur",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Saurav D.",
+    "city": "Mysore",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Pallavi J.",
+    "city": "Nashik",
+    "time": "just now"
+  },
+  {
+    "name": "Vivek T.",
+    "city": "Prayagraj",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Ishita M.",
+    "city": "Ludhiana",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Tarun S.",
+    "city": "Gwalior",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Anjali V.",
+    "city": "Madurai",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Rohan B.",
+    "city": "Udaipur",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Swati K.",
+    "city": "Meerut",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Rajat N.",
+    "city": "Rajkot",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Komal D.",
+    "city": "Jammu",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Abhishek P.",
+    "city": "Kanpur",
+    "time": "just now"
+  },
+  {
+    "name": "Preeti S.",
+    "city": "Noida",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Alok R.",
+    "city": "Gurugram",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Nidhi V.",
+    "city": "Faridabad",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Sameer K.",
+    "city": "Mangalore",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Jyoti B.",
+    "city": "Ghaziabad",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Akash S.",
+    "city": "Jamshedpur",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Sunita M.",
+    "city": "Jabalpur",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Prashant K.",
+    "city": "Aurangabad",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Deepa N.",
+    "city": "Vijayawada",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Monika R.",
+    "city": "Kota",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Suresh B.",
+    "city": "Salem",
+    "time": "just now"
+  },
+  {
+    "name": "Heena T.",
+    "city": "Bikaner",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Ajay P.",
+    "city": "Bareilly",
+    "time": "5 min ago"
+  },
+  {
+    "name": "Nandini S.",
+    "city": "Kozhikode",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Sachin W.",
+    "city": "Kolhapur",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Rashmi J.",
+    "city": "Ujjain",
+    "time": "6 min ago"
+  },
+  {
+    "name": "Vijay K.",
+    "city": "Jalandhar",
+    "time": "1 min ago"
+  },
+  {
+    "name": "Kavita M.",
+    "city": "Dhanbad",
+    "time": "3 min ago"
+  },
+  {
+    "name": "Hemant D.",
+    "city": "Siliguri",
+    "time": "2 min ago"
+  },
+  {
+    "name": "Bhavna C.",
+    "city": "Panaji",
+    "time": "4 min ago"
+  },
+  {
+    "name": "Girish L.",
+    "city": "Warangal",
+    "time": "just now"
+  }
+];
+
+    let buyerIdx = 0;
+    const popup = document.getElementById('enrollment-popup');
+    const popupName = document.getElementById('popup-buyer-name');
+    const popupTime = document.getElementById('popup-buyer-time');
+    const closeBtn = document.getElementById('close-popup-btn');
+    let isDismissed = false;
+
+    function cyclePopup() {
+      if (isDismissed || !popup) return;
+
+      // 1. Smoothly fade out current popup
+      popup.classList.remove('show-popup');
+
+      // 2. Change buyer and city details after fade-out transition (450ms)
+      setTimeout(() => {
+        if (isDismissed || !popup) return;
+        const b = buyers[buyerIdx % buyers.length];
+        if (popupName) popupName.textContent = b.name + ' from ' + b.city;
+        if (popupTime) popupTime.textContent = b.time;
+        buyerIdx++;
+
+        // 3. Smoothly slide in new popup
+        popup.classList.add('show-popup');
+
+        // 4. Stays visible for 4.8s before slide-out, creating a crisp 7s rhythm
+        setTimeout(() => {
+          if (!isDismissed && popup) {
+            popup.classList.remove('show-popup');
+          }
+        }, 4800);
+      }, 450);
+    }
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (popup) {
+          popup.classList.remove('show-popup');
+        }
+        isDismissed = true;
+        // Resume after 20s if manually closed
+        setTimeout(() => { isDismissed = false; }, 20000);
+      });
+    }
+
+    // Launch immediately on page load (500ms) so user sees it right away!
+    setTimeout(() => {
+      const b = buyers[0];
+      if (popupName) popupName.textContent = b.name + ' from ' + b.city;
+      if (popupTime) popupTime.textContent = b.time;
+      buyerIdx = 1;
+      if (popup) popup.classList.add('show-popup');
+
+      // Auto-hide first popup at 4.8s
+      setTimeout(() => {
+        if (!isDismissed && popup) {
+          popup.classList.remove('show-popup');
+        }
+      }, 4800);
+
+      // Repeat every 7 seconds
+      setInterval(cyclePopup, 7000);
+    }, 500);
+  </script>
+</body>
+</html>
